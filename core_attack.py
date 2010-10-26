@@ -22,7 +22,7 @@ def ranged_attack(attacker, target, fire_mode):
                 print_list.append("\t" , attacker.equipt_weapon.name," missed")    
             shots_remain = shots_remain - 1
             loaded_ammo = loaded_ammo - random.randint(1, 6)
-            
+            spare_ammo
             
     if (fire_mode == "single shot") and (loaded_ammo >= 1):
         os.system("clear")#clears screen
